@@ -32,6 +32,7 @@ Using this script, you can capture below details of multiple Azure VMs:
 • Data Disk Count, Name, Size, Caching, Storage Account, LUN
 
  
+ 
 
 The script will give you three different options to extract VM details:
 
@@ -42,6 +43,7 @@ The script will give you three different options to extract VM details:
 
 3. Capture details of a single VM.
 
+ 
  
 
 The script will export all details to CSV to a location which you specify, and will generate two CSV files:
