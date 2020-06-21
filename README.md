@@ -10,7 +10,7 @@ This Repository contains useful PowerShell scripts related to Azure.
 
 - Verify that PowerShell is poiting to the correct subscription, using Get-AzContext cmdlet.
 
-- Once done, use "LogOut-AzAccount" ot end your PowerShell.
+- Once done, use "LogOut-AzAccount" cmdlet to end your PowerShell session.
 
 - Test before you execute these scripts in any critical environment.
 
