@@ -1,6 +1,10 @@
-This script deletes and recreates a VM with new name, using existing VM disks and NIC.
+This script deletes and recreates a VM with new name.
 
-The system name within the Operaing System must be changed manually.
+It takes snapshots of original disks, and creates new disks with the new name and attaches with the new VM.
+
+The existing NIC is retained (and not recreated) to avoid any connectivity issue. Name of the NIC would not be changed.
+
+The Computer name within Operaing System must be changed manually.
 
 The original VM will be deleted, but original disks will be retained to follow a safer approach.
 
