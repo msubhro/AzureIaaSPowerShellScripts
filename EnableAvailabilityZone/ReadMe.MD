@@ -14,6 +14,8 @@ If your VM has Public IP address, then convert it to Standard and Static Public 
 
 We will use the original NIC in the new VM, to avoid any connectivity issue. So do not delete the original NIC.
 
+Ensure Azure VM agent is installed on target VM(s), before you execute this script.
+
 This script runs on PowerShell AZ Module.
 
 The script is tested only for Windows VM.
