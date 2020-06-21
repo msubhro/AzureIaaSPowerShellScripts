@@ -13,3 +13,11 @@ Assign VM private IP address statically.
 If your VM has Public IP address, then convert it to Standard and Static Public IP. Availability Zone does not work with Basic Public IP address.
 
 We will use the original NIC in the new VM, to avoid any connectivity issue. So do not delete the original NIC.
+
+This script runs on PowerShell AZ Module.
+
+The script is tested only for Windows VM.
+
+Test before you use this script in a critical environment.
+
+Use at your own risk.
