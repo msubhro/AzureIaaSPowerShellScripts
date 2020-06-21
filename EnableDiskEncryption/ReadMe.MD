@@ -10,7 +10,7 @@
 
 - This script is applicable only for Azure Windows VMs.
 
-- This script will run on multiple VMs in parallel.
+- This script will run on multiple VMs in parallel, based on a given server list.
 
 - This script runs on PowerShell AZ Module.
 
