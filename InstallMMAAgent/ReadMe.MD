@@ -4,6 +4,8 @@
 
 - Works on multiple Azure VMs in parallel, based on an input file.
 
+- Ensure Azure VM agent is installed on target VM(s), before you execute this script.
+
 - This script runs on PowerShell AZ Module.
 
 - The script is tested only for Windows VM.
