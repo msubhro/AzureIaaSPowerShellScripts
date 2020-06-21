@@ -4,4 +4,10 @@ VM must be deallocated before running this script.
 
 VM Size must support Accelerated Networking. Not all Azure VM supports Accelerated Networking.
 
-PowerShell AZ Module must be installed.
+This script runs on PowerShell AZ Module.
+
+The script is tested only for Windows VM.
+
+Test before you use this script in a critical environment.
+
+Use at your own risk.
