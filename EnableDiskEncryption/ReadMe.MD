@@ -14,8 +14,6 @@
 
 - This script runs on PowerShell AZ Module.
 
-- The script is tested only for Windows VM.
-
 - Test before you use this script in a critical environment.
 
 - Use at your own risk.
