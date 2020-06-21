@@ -2,9 +2,9 @@
 
 - The Encryption Keys and Secrets are stored in Azure Key Vault.
 
-- Your account should have appropriate access policy in Azure Key Vault, to read / get secrets and keys.
+- Your account should have appropriate access in Azure Key Vault, to read / get secrets and keys. Use Key Vault access policy.
 
-- Key Encryption Key must be present in Azure Key Vault.
+- Key Encryption Key must be present in Azure Key Vault, which will be used to wrap the bitlocker secret.
 
 - Disk Encryption must be enabled in Azure Key Vault.
 
